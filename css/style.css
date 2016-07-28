@@ -1,0 +1,42 @@
+body {
+	margin-top: 20px;
+}
+
+header {
+	margin: auto;
+	width: 40%;
+}
+
+div.center {
+	margin: auto;
+	width: 70%;
+	/* padding: 10px; */
+}
+div.row {
+	/* width: 100%; */
+	border: 1px solid black;
+	display: -webkit-flex;
+  	-webkit-flex-direction: row;
+  	display: flex;
+  	flex-direction: row;
+	margin: 10px 0 10px 0;
+	padding: 4px;
+}
+
+.seat {
+	/*background: no-repeat;*/
+	margin: 1px 1px 1px 1px;
+	width: 30px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 10%;
+	box-sizing: border-box;
+	/*display: block;*/
+
+}
+
+.right {
+    float: left;
+    width: 260px;
+    padding: 10px;
+}
